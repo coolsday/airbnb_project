@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+}
+
+.main-page {
+    width: 100%;
+    height: 100%;
+}
+
+.air-slide {
+  width: 100%;
+}
+
+.about {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    height: 100%;
+}
+
+.pull-left {
+    float: right;
+}
+
+.section-padding {
+    padding-top: 5%;
+    padding-bottom: 5%; 
+}
+
+.font-size {
+    font-size: 24px;
+}
+
+.btn-host {
+    color: white;
+    background-color: #009aab;
+}
+
+.btn-host:hover {
+    background-color: #006671;
+}
