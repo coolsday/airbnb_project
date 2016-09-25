@@ -11,7 +11,7 @@ html, body {
   width: 100%;
 }
 
-.about {
+.discover {
     background-color: white;
     text-align: center;
     width: 100%;
@@ -35,6 +35,11 @@ html, body {
     font-size: 24px;
 }
 
+.discover-font {
+    color: white;
+    font-size: 24px;
+}
+
 .btn-host {
     color: white;
     background-color: #009aab;
@@ -42,4 +47,10 @@ html, body {
 
 .btn-host:hover {
     background-color: #006671;
+}
+
+.place {
+    position: absolute;
+    text-align: center;
+    top: 50%;
 }
