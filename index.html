@@ -10,15 +10,22 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand navbar-size">
+            <a href="#" class="navbar-brand">
                 <img class="logo" src="img/logo.png" />
             </a>
         </div>
-        <ul class="nav navbar-nav">
-            <li><a href="#">Link</a></li>
+        <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Where to?" />
+            </div>
+        </form>
+        <ul id="nav" class="nav navbar-nav navbar-right">
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Log in</a></li>
         </ul>
     </div>
 </nav>
@@ -76,11 +83,33 @@
                 </div>
             </div>
             <div class="row">
-                <div style="text-align: center;">
+                <div class="section-padding" style="text-align: center;padding-top: 0%;">
                     <button class="btn btn-host btn-large" type="button">
                     See All Destinations
                     </button>
                 </div>
             </div>
         </div>
+        <!-- footer -->
+        <div class="footer">
+            <footer class="page-container-responsive">
+                <div class="contact-info" style="text-align: center;">
+                    <h2 class="discover-font">Join Us On</h2>
+                </div>
+                <hr>
+                <div class="wrapper">
+                    <div class="social">&#62220;</div>
+                    <div class="social">&#62217;</div>
+                    <div class="social">&#62223;</div>
+                    <div class="social">&#62232;</div>
+                    <div class="social">&#62235;</div>
+                    <div class="social">&#62226;</div>
+                    <div class="social">&#62214;</div>
+                </div>
+                <div class="copyright">
+                    © Airbnb, Inc.
+                </div>
+            </footer>
+        </div>
+    </div>
 </body>
